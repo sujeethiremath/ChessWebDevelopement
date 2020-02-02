@@ -1,0 +1,49 @@
+body{
+  width: 60%;
+  align-items: center;
+  margin: auto;
+}
+
+table{
+  margin: auto;
+  align-items: center;
+  width: 55%;
+}
+
+table tr#r1 td:nth-child(even),
+table tr#r3 td:nth-child(even),
+table tr#r5 td:nth-child(even),
+table tr#r7 td:nth-child(even),
+table tr#r2 td:nth-child(odd),
+table tr#r4 td:nth-child(odd),
+table tr#r6 td:nth-child(odd),
+table tr#r8 td:nth-child(odd)
+{
+  background: IndianRed;
+}
+
+table tr#r1 td:nth-child(odd),
+table tr#r3 td:nth-child(odd),
+table tr#r5 td:nth-child(odd),
+table tr#r7 td:nth-child(odd),
+table tr#r2 td:nth-child(even),
+table tr#r4 td:nth-child(even),
+table tr#r6 td:nth-child(even),
+table tr#r8 td:nth-child(even){
+  background: BurlyWood;
+}
+
+tr{
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  font-size: 40px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
